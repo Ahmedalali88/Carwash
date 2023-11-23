@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#navigation{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #D6DBDF;
+    overflow: hidden;
+}
+#navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+#navigation ul li{
+    display: inline;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+    color: black;
+    transition: 0.4s;
+}
+a:hover{
+    background-color: #8f99a3;
+    color: brown;
+}
+/*.headerimg{
+    width: 100%;
+    height: 600px;
+}*/
+#text{
+    position: absolute;
+    top: 180px;
+    left: 130px;
+}
+#text h1{
+    color:#F7F9F9;
+    font-size: 35px;
+}
+#text span{
+    color: brown;
+    padding-right: 10px;
+    font-size: 80px;
+}
+#text h2{
+    color:#a1acac;
+    font-size: 25px;
+}
+#text p{
+    color: #F7F9F9;
+    font-size: 18px;
+    width: 350px;
+    padding-top: 40px;
+}
+button{
+    cursor: pointer;
+    position: absolute;
+    top: 500px;
+    left: 170px;
+    width: 200px;
+    height: 60px;
+    border-radius: 0px;
+    background: #b82e3a;
+    font-size: 20px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: #3e8e41;
+    color: white;
+    border-radius: 5px;
+}
+#container{
+    margin-top: 5%;
+    padding: 20px;
+}
+.m1{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+div.m1:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.m2{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+div.m2:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.m3{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+div.m3:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.m4{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+div.m4:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.m5{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+div.m5:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.m6{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+div.m6:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.mtext{
+    background-color: #F6F6FC;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    padding: 20px 25px 25px 25px;
+}
+.mtext h3{
+    padding-bottom: 20px;
+    color: brown;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#contact h1{
+    text-align: center;
+    color: brown;
+    text-decoration-line: underline;
+    padding-bottom: 40px;
+}
+#contact{
+    margin: 100px 300px 0px 300px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+footer{
+    margin: 20px 0px 0px 0px;
+    background-color: rgb(46, 45, 45);
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0px 20px 10px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook, .fa-instagram, .fa-snapchat, .fa-youtube{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
+.fa-snapchat{
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
